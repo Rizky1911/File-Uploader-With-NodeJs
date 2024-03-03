@@ -21,6 +21,6 @@ app.use('/uploads', express.static('./uploads'));
 
 initRoutes(app);
 
-app.listen(port, "localhost", () => {
+app.listen(port, () => {
   console.log(`Running at localhost:${port}`);
 });
