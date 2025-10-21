@@ -14,7 +14,7 @@
     COPY . .
 
     # Expose the port your application listens on
-    EXPOSE 3001
+    EXPOSE 8080
 
     # Command to run the application
     CMD ["node", "server.js"]
