@@ -17,4 +17,4 @@
     EXPOSE 3001
 
     # Command to run the application
-    CMD ["node", "index.js"]
+    CMD ["node", "server.js"]
